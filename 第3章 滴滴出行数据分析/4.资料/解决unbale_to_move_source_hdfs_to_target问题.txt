@@ -1,0 +1,5 @@
+在hive-site.xml中加入：
+<property>
+  <name>hive.exec.stagingdir</name>
+  <value>/tmp/hive/spark-${user.name}</value>
+</property>
